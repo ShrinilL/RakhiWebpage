@@ -1,0 +1,75 @@
+html {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4OxgMq-ytXYG5lVOlNuYouNeFYCQ0xXmwkYGlouXKwn3EGI8ft8xbcd54ldY0o--_zXo&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body>p {
+    width: 76%;
+    font-family: 'Tangerine', cursive;
+    position: absolute;
+    text-align: center;
+    left: 12%;
+    top: 10%;
+    font-size: 5rem;
+    font-weight: 900;
+    color: darkblue;
+}
+
+.multicolor-text {
+    background-clip: border-box;
+    background: linear-gradient(to left,
+            aqua,
+            lime,
+            gold,
+            crimson,
+            #FF7722,
+            indigo,
+            darkviolet,
+            darkblue);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+div {
+    position: absolute;
+    left: 90%;
+    top: 78%;
+    font-size: 40px;
+    color: lime;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pos {
+    position: absolute;
+    width: auto;
+    left: 57%;
+    top: 65%;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pos1 {
+    position: absolute;
+    width: auto;
+    left: 61%;
+    top: 58%;
+    color: #FF7722;
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+div>img {
+    position: absolute;
+    top: 70%;
+    width: 7rem;
+}
+
+.tran {
+    transition: transform 0.3s ease;
+}
+.tran:hover {
+    transform: scale(1.5);
+}

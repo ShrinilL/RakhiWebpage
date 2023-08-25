@@ -1,0 +1,42 @@
+html {
+    background-image: url("./Diya.jpg");
+    background-repeat: no-repeat;
+    background-size: 78%;
+    background-position-x: center;
+    background-color: #ff4e22;
+}
+
+body>p {
+    width: 30%;
+    font-family: 'Tangerine', cursive;
+    position: absolute;
+    text-align: center;
+    left: 15%;
+    top: 10%;
+    font-size: 5rem;
+    font-weight: 900;
+    color: rgb(255, 250, 230);
+}
+
+div {
+    position: absolute;
+    left: 90%;
+    top: 75%;
+    font-size: 32px;
+    color: lime;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div>img {
+    position: absolute;
+    top: 80%;
+    width: 7rem;
+}
+
+.tran {
+    transition: transform 0.3s ease;
+}
+.tran:hover {
+    transform: scale(1.5);
+}

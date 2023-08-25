@@ -1,0 +1,84 @@
+/*.intro-background {
+    background-image: url("./Book.jpg");
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-position-x: center;
+    background-position-y: -25%;
+    position: relative;
+    top: 500px;
+    background-color: aqua;
+    transition: transform 3s ease;
+}*/
+body {
+    background-color: indigo;
+    background-image: url("./Entrance.gif");
+    background-repeat: no-repeat;
+    background-size: 66%;
+    background-position-x: center;
+    /* animation-iteration-count: 1; */
+}
+
+
+
+h1 {
+    font-size: 40px;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    /*text-align: center;*/
+    color: gold;
+}
+
+p {
+   font-size: 20px;
+   position: absolute;
+   left: 44.15%;
+   top: 40%;
+   color: goldenrod;
+}
+
+@keyframes pop
+{
+  0%{transform:scale(0);}
+  100%{transform:scale(0);}
+}
+
+/* div {
+    position: absolute;
+    left: 32.5%;
+    top: 46%;
+} */
+
+/* body>div>img {
+    height: 700px;
+    z-index: -1;
+} */
+
+/* div>div {
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    width: 300px;
+} */
+
+/* div>div>a>div {
+    position: relative;
+    top: 10px;
+    left: 35%;
+} */
+
+/* a {
+    text-decoration: none;
+    color: red;
+    font-size: 40px;
+} */
+
+/* .tran {
+    transform: rotate(-90deg);
+    width: 300px;
+    height: 400px;
+    transition: transform 0.3s ease;
+} */
+/* .tran:hover {
+    transform: scale(1.5);
+} */
